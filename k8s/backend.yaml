@@ -14,7 +14,7 @@ metadata:
 type: Opaque
 stringData:
   S3_BUCKET_NAME: "sample-app-dev-files-805400277714"
-  DB_URL: "sample-app-mysql.c504k660kyuf.us-east-2.rds.amazonaws.com"
+  DB_URL: "jdbc:mysql://sample-app-mysql.c504k660kyuf.us-east-2.rds.amazonaws.com:3306/mydb?serverTimezone=Asia/Seoul&characterEncoding=UTF-8"
   DB_USERNAME: "admin"
   DB_PASSWORD: "your-strong-password-here"
 ---
